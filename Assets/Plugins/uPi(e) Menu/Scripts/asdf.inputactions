@@ -1,0 +1,52 @@
+{
+    "name": "asdf",
+    "maps": [
+        {
+            "name": "Stuff",
+            "id": "1057f7c9-d8b7-466c-9316-b9b662b599e7",
+            "actions": [
+                {
+                    "name": "Look",
+                    "type": "Value",
+                    "id": "5a5269a7-a827-4df5-b4b8-d7ab049ca5bb",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Confirm",
+                    "type": "Button",
+                    "id": "cc3c5234-28f4-4921-97ce-93e4517e6dd4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "89a54ad2-3934-4c43-ad78-bcdada2c7b0b",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1221a3cc-7b2f-4355-9f3b-c23ae5ecb1fa",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Confirm",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3328229394274454440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3328229394274454438}
+  - component: {fileID: 3328229394274454437}
+  - component: {fileID: 8990057093903163512}
+  - component: {fileID: 3328229394689546554}
+  - component: {fileID: 8418504899022238301}
+  m_Layer: 0
+  m_Name: ScreenspaceUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3328229394274454438
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3328229394274454440}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3328229394274454437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3328229394274454440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b104ceeb47f5ad48a39e72a6b2e239a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InstructionText: {fileID: 0}
+  m_FindAPlaneClip: {fileID: 32900000, guid: 38ecff9554fce4bb2ab7fdb7a18e813b, type: 3}
+  m_TapToPlaceClip: {fileID: 32900000, guid: f4f1a546efb674ffb8679f1e2ca2231b, type: 3}
+  m_FindImageClip: {fileID: 32900000, guid: 570372f93b4d148f8818cbc12972293e, type: 3}
+  m_FindBodyClip: {fileID: 32900000, guid: df21904a707ae4095848eb16198d1065, type: 3}
+  m_FindObjectClip: {fileID: 32900000, guid: db6db79b1a5224930bbc537202ed025a, type: 3}
+  m_FindFaceClip: {fileID: 32900000, guid: 69a592f563a0e4e19840016715c484f9, type: 3}
+  m_CoachingOverlay: {fileID: 0}
+  m_VideoPlayer: {fileID: 0}
+  m_RawImage: {fileID: 0}
+  m_FadeOnDuration: 0.5
+  m_FadeOffDuration: 1
+  m_Transparent: {fileID: 2800000, guid: 6b52c83794be64e65bf826666f5a7f7d, type: 3}
+  m_LocalizationManager: {fileID: 3328229394689546554}
+  m_LocalizeText: 0
+--- !u!114 &8990057093903163512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3328229394274454440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8446de0774cd73441b1def01e5360fcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowNotTrackingReasons: 1
+  m_ReasonDisplayText: {fileID: 0}
+  m_ReasonParent: {fileID: 0}
+  m_ReasonIcon: {fileID: 0}
+  m_InitRelocalSprite: {fileID: 21300000, guid: 03f483cca61204f2c9ee897b5211414f,
+    type: 3}
+  m_MotionSprite: {fileID: 21300000, guid: cb790425a497447e7aec4b22fd5db148, type: 3}
+  m_LightSprite: {fileID: 21300000, guid: 31cdbd93de4774cb9a1a2ca00f34eb65, type: 3}
+  m_FeaturesSprite: {fileID: 21300000, guid: 5b235561398da4dc6a7f9fea67bb700d, type: 3}
+  m_UnsupportedSprite: {fileID: 21300000, guid: 4d8cf40a306c8483cb6d79cd26daf44a,
+    type: 3}
+  m_NoneSprite: {fileID: 21300000, guid: 29fc805acb69f4d7b84b4b57f58676b7, type: 3}
+  m_LocalizationManager: {fileID: 3328229394689546554}
+  m_LocalizeText: 0
+--- !u!114 &3328229394689546554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3328229394274454440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c6f51f6bfbde451a92c25e3a2a6792b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentLocalizedLanguage: 2
+  localizedInit: 
+  localizedMotion: 
+  localizedLight: 
+  localizedFeatures: 
+  localizedUnsupported: 
+  localizedNone: 
+  localizedMoveDevice: 
+  localizedTapToPlace: 
+  localizedBody: 
+  localizedFace: 
+  localizedImage: 
+  localizedObject: 
+  m_SimplifiedChineseFont: {fileID: 0}
+  m_JapaneseFont: {fileID: 0}
+  m_KoreanFont: {fileID: 0}
+  m_HindiFont: {fileID: 0}
+  m_InstructionText: {fileID: 0}
+  m_ReasonText: {fileID: 0}
+--- !u!114 &8418504899022238301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3328229394274454440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 814451a53844e424484f76e0d3263db7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planeFound:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartWithInstructionalUI: 1
+  m_InstructionalUI: 0
+  m_InstructionalGoal: 0
+  m_ShowSecondaryInstructionalUI: 0
+  m_SecondaryInstructionUI: 6
+  m_SecondaryGoal: 6
+  m_CoachingOverlayFallback: 0
+  m_ARSessionOrigin: {fileID: 0}
+  m_PlaneManager: {fileID: 0}
+  m_FaceManager: {fileID: 0}
+  m_BodyManager: {fileID: 0}
+  m_ImageManager: {fileID: 0}
+  m_ObjectManager: {fileID: 0}
+  m_AnimationManager: {fileID: 0}
+  m_LocalizationManager: {fileID: 0}
+  canvas: {fileID: 0}
+  imagePreviewContainer: {fileID: 0}
+  imagePreviewTexture: {fileID: 0}
+  previewLabel: {fileID: 0}
+  largePreviewTexture: {fileID: 0}
+  defaultGallery: Screenshots
+  defaultScreenshotFileName: Screenshot.png
